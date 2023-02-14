@@ -3,6 +3,7 @@
 ###get variables ready
 import random
 from hangman_words import word_list
+from art import hangman_logo
 won = False
 display =[]
 life = 6
@@ -64,16 +65,7 @@ stages = ['''
 =========
 ''',
 ]
-####logo
-logo = ''' 
- _                                             
-| |                                            
-| |__   __ _ _ __   __ _ _ __ ___   __ _ _ __  
-| '_ \ / _` | '_ \ / _` | '_ ` _ \ / _` | '_ \ 
-| | | | (_| | | | | (_| | | | | | | (_| | | | |
-|_| |_|\__,_|_| |_|\__, |_| |_| |_|\__,_|_| |_|
-                    __/ |                      
-                   |___/    '''
+
 #game over function
 def game_over():
     global won
@@ -148,7 +140,7 @@ def start_program():
     global display
     global chosen_word
     global word_length
-    print(logo)
+    print(hangman_logo)
     print("Let's play a game of hangman!")
     ready = input("Press enter when you are ready to begin")
     #generate random word

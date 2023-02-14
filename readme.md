@@ -67,3 +67,14 @@ This program is the caesar cipher.
 #outputs
     shifted message
 ```
+##calculator.py
+```python
+This is a simple calculator doing basic operations, addition subtraction multiplication and division
+inputs:
+    user inputs first number
+    user chooses operation
+    user inputs next number
+outputs:
+    prints formula and answer
+    asks if continue or restart
+```
