@@ -3,6 +3,23 @@ This is a folder of practice projects that I have made from videos, tutorials, o
 
 ## Passwordgenerator.py
 ```python
+#inputs
+how many letters in password
+how many numbers in password
+how many symbols in password
+#outputs
+a randomized order of random letters, numbers, and symbols of the amount the user inputted
+
+```
+## hangman.py & hangman_words.py
+```python
+hangman.py is main, other file is list of words to be used in game.
+# user will input letters trying to guess what random word is
+user has six lives. Each time incorrect guess, displays ascii art of hangman game.
+```
+## probstatement.py
+```python
+This program emulates a vending machine.
 #prints
 items in vending machine
 their name, cost, id, and quantity
@@ -28,4 +45,25 @@ This is a common problem. You must iterate through numbers 1-10.
     print fizzbuzz.
 #else 
     print number
- 
+ ```
+## silentauction.py
+```python
+This emulates a silent auction. A random item from a list will be up for auction.
+
+First user: inputs name and bid
+program asks if more users. Clears screen and users input.
+
+When no more users, program says who was the highest bidder and what there bid was
+```
+## caesarcipher.py
+```python
+This program is the caesar cipher.
+#inputs
+    encode or decode
+    message
+    shift number
+#according to inputs, program will shift message and encode or decode
+
+#outputs
+    shifted message
+```
