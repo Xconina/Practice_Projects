@@ -67,7 +67,7 @@ This program is the caesar cipher.
 #outputs
     shifted message
 ```
-##calculator.py
+## calculator.py
 ```python
 This is a simple calculator doing basic operations, addition subtraction multiplication and division
 inputs:
@@ -77,4 +77,24 @@ inputs:
 outputs:
     prints formula and answer
     asks if continue or restart
+```
+## higherorlower.py
+```python
+In Higher or Lower, using a data set, two random celebrities will be chosen. The user will be displayed info about the
+celebrities, then they must guess who has a higher instagram follower count.
+if correct:
+    get a point
+    continue. now whichever celebrity was person B will be compared to someone new
+if wrong:
+    total score displayed
+    game over
+```
+## guessingame.py
+```python
+In guessing game, a random number between 1 and 100 will be chosen.
+user will input:
+    a guess between 1 and 100
+comp will return:
+    is the chosen number higher or lower than guess
+User will have a few turns to continue guessing.
 ```
